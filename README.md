@@ -1,63 +1,65 @@
-To-Do Task App
+# To-Do Task App
 
-Overview
+## Overview
 
-The To-Do Task App is a simple and efficient task management application built using Flutter and GetX for state management. This app allows users to add, daily and only today task, can complete, and delete tasks with smooth animations and a clean user interface.
+The To-Do Task App is a simple and efficient task management application built using Flutter and GetX for state management. This app allows users to add, complete, and delete tasks with smooth animations and a clean user interface.
 
-Features
+## Features
 
-📌Task Management: Add, complete, and delete tasks easily.
+- 📌 Task Management: Add, complete, and delete tasks easily.
+- 🎨 Modern UI: Clean and intuitive design with categorized sections.
+- 🚀 State Management: Uses GetX for efficient state handling.
+- 🏗 Animations: Smooth transitions for task visibility and navigation.
+- 📂 Local Storage: Tasks persist using local storage Hive.
 
-🎨 Modern UI: Clean and intuitive design with categorized sections.
+## Tech Stack
 
-🚀 State Management: Uses GetX for efficient state handling.
+- Framework: Flutter
+- State Management: GetX
+- UI Components: Material Design
+- Local Storage: Hive
 
-🏗 Animations: Smooth transitions for task visibility and navigation.
-
-📂 Local Storage: Tasks persist across sessions using local storage Hive.
-
-Tech Stack
-
-Framework: Flutter
-
-State Management: GetX
-
-UI Components: Material Design
-
-Local Storage:Hive 
-
-Folder Structure
-llib/
+## Folder Structure
+lib/
 │── controller/
-│   ├── controller.dart     # GetX controller for managing tasks
+│ ├── controller.dart # GetX controller for managing tasks
 │── model/
-│   ├── task_model.dart     # Task model class
+│ ├── task_model.dart # Task model class
 │── res/
-│   ├── colors.dart         # App theme colors
-│   ├── components/         # Reusable UI components
+│ ├── colors.dart # App theme colors
+│ ├── components/ # Reusable UI components
 │── view/
-│   ├── home_screen.dart    # Main screen with task list
-│   ├── add_task_screen.dart # Screen to add new tasks
-│   ├── Splash_screen.dart # Splash Screen to  Home Screen
-│── main.dart              # App entry point
+│ ├── home_screen.dart # Main screen with task list
+│ ├── add_task_screen.dart # Screen to add new tasks
+│ ├── splash_screen.dart # Splash Screen to Home Screen
+│── main.dart # App entry point
+## Usage
 
-Usage
+- Add a Task: Click the + button to add a new task.
+- Complete a Task: Tap on a task to mark it as completed.
+- Delete a Task: Use the delete button to remove a task.
+- Animations: Task options appear with smooth opacity animations.
 
-Add a Task: Click the + button to add a new task.
+## Setup Instructions
 
-Complete a Task: Tap on a task to mark it as completed.
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/bilaalmustafa/todo_task_app.git
+    ```
 
-Delete a Task: use the delete button to remove a task.
+2. **Navigate to the project directory:**
+    ```sh
+    cd todo_task_app
+    ```
 
-Animations: Task options appear with smooth opacity animations.
+3. **Install the dependencies:**
+    ```sh
+    flutter pub get
+    ```
 
+4. **Run the app:**
+    ```sh
+    flutter run
+    ```
 
-
-
-
-
-
-
-
-
-
+For more details, visit the [repository](https://github.com/bilaalmustafa/todo_task_app).
