@@ -20,19 +20,20 @@ The To-Do Task App is a simple and efficient task management application built u
 - Local Storage: Hive
 
 ## Folder Structure
-lib/
-│── controller/
-│ ├── controller.dart # GetX controller for managing tasks
-│── model/
-│ ├── task_model.dart # Task model class
-│── res/
-│ ├── colors.dart # App theme colors
-│ ├── components/ # Reusable UI components
-│── view/
-│ ├── home_screen.dart # Main screen with task list
-│ ├── add_task_screen.dart # Screen to add new tasks
-│ ├── splash_screen.dart # Splash Screen to Home Screen
-│── main.dart # App entry point
+lib/                                                                                                                                        
+│── controller/                                                                                                                                            
+│ ├── controller.dart # GetX controller for managing tasks                                                                                                                                                              
+│── model/                                                                                                                      
+│ ├── task_model.dart # Task model class                                                                                                                        
+│── res/                                                                                                    
+│ ├── colors.dart # App theme colors                                                                                                                    
+│ ├── components/ # Reusable UI components                                                                                                                  
+│── view/                                                                                                      
+│ ├── home_screen.dart # Main screen with task list                                                                                            
+│ ├── add_task_screen.dart # Screen to add new tasks                                                                                            
+│ ├── splash_screen.dart # Splash Screen to Home Screen                                                                                                                                                      
+│── main.dart # App entry point                                                                                                                                      
+
 ## Usage
 
 - Add a Task: Click the + button to add a new task.
