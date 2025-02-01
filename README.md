@@ -38,6 +38,7 @@ llib/
 │── view/
 │   ├── home_screen.dart    # Main screen with task list
 │   ├── add_task_screen.dart # Screen to add new tasks
+│   ├── Splash_screen.dart # Splash Screen to  Home Screen
 │── main.dart              # App entry point
 
 Usage
@@ -46,7 +47,7 @@ Add a Task: Click the + button to add a new task.
 
 Complete a Task: Tap on a task to mark it as completed.
 
-Delete a Task: Swipe or use the delete button to remove a task.
+Delete a Task: use the delete button to remove a task.
 
 Animations: Task options appear with smooth opacity animations.
 
