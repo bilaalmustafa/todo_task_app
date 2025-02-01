@@ -2,7 +2,7 @@
 
 ## Overview
 
-The To-Do Task App is a simple and efficient task management application built using Flutter and GetX for state management. This app allows users to add, complete, and delete tasks with smooth animations and a clean user interface.
+The To-Do Task App is a simple and efficient task management application built using Flutter and GetX for state management. This app allows users to add, daily or only for today task and save complete, and delete tasks with smooth animations and a clean user interface. 
 
 ## Features
 
